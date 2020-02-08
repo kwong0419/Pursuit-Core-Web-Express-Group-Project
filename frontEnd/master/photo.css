@@ -278,3 +278,21 @@ h1 {
   color: white;
   background-color: goldenrod;
 }
+
+#logOffBtn {
+  display: inline-block;
+  color: white;
+  padding: 2px;
+  size: 40%;
+  border-radius: 5px;
+  background-color: black;
+  border: 0.1em solid gold;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 300;
+}
+
+#logOffBtn:hover {
+  color: black;
+  background-color: gold;
+}
