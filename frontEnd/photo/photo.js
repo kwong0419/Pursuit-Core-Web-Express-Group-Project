@@ -26,6 +26,7 @@ let displayUserInfo = async () => {
     displayAlbumPhotos(sessionStorage.album_id);
     let quitAlbumBtn = document.createElement("button");
     quitAlbumBtn.innerText = "Close this Album";
+    quitAlbumBtn.id = "quitAlbumBtn";
     content.appendChild(quitAlbumBtn);
     quitAlbumBtn.addEventListener("click", e => {
       e.preventDefault();
