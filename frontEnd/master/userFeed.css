@@ -19,7 +19,6 @@ body {
   border-width: 1.5px;
   top: 0;
   z-index: 1;
-  ;
 }
 
 a:link {
@@ -222,7 +221,6 @@ h2 {
   text-align: center;
 }
 
-
 #createPostBtn {
   display: inline-block;
   color: white;
@@ -239,7 +237,6 @@ h2 {
 #createPostBtn:hover {
   color: black;
   background-color: gold;
-
 }
 
 #userSearchBtn {
@@ -260,7 +257,6 @@ h2 {
   background-color: gold;
 }
 
-
 #logOffBtn {
   display: inline-block;
   color: white;
@@ -279,9 +275,6 @@ h2 {
   background-color: gold;
 }
 
-
-
-
 .standardSiteBtn {
   display: inline-block;
   color: white;
@@ -295,7 +288,49 @@ h2 {
   font-weight: 300;
 }
 
-standardSiteBtn:hover {
+.standardSiteBtn:hover {
+  color: black;
+  background-color: gold;
+}
+
+.showCommentsLikesBtn,
+.insertCommentBtn,
+.commentBtn {
+  display: inline-block;
+  color: white;
+  padding: 2px;
+  size: 40%;
+  border-radius: 5px;
+  background-color: black;
+  border: 0.1em solid gold;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 300;
+}
+
+.showCommentsLikesBtn:hover,
+.insertCommentBtn:hover,
+.commentBtn:hover {
+  color: black;
+  background-color: gold;
+}
+
+.deletePostBtn,
+.deleteCommentBtn {
+  display: inline-block;
+  color: white;
+  padding: 3px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: black;
+  border: 0.1em solid gold;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 300;
+}
+
+.deletePostBtn:hover,
+.deleteCommentBtn:hover {
   color: black;
   background-color: gold;
 }
