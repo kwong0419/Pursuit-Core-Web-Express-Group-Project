@@ -1,6 +1,7 @@
 * {
   font-family: "Times New Roman", Times, serif;
 }
+
 body {
   background-color: #e9ebee;
   margin: auto;
@@ -219,7 +220,6 @@ h1 {
   text-align: left;
   width: 70%;
   font-size: 15px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .content img {
@@ -240,6 +240,24 @@ h1 {
 }
 
 #quitAlbumBtn:hover {
-    color: white;
-    background-color: goldenrod;
+  color: white;
+  background-color: goldenrod;
+}
+
+#userSearchBtn {
+  display: inline-block;
+  color: white;
+  padding: 2px;
+  size: 40%;
+  border-radius: 5px;
+  background-color: black;
+  border: 0.1em solid gold;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 300;
+}
+
+#userSearchBtn:hover {
+  color: black;
+  background-color: gold;
 }
