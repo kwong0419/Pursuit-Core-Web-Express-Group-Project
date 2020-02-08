@@ -73,7 +73,7 @@ INSERT INTO posts (poster_id, imgURL, description)
         (1, 'https://seoimgak.mmtcdn.com/blog/sites/default/files/images/Lake-Louise.jpg', 'lovin Canada'),
         (1, 'https://i0.wp.com/www.guggenheim.org/wp-content/uploads/2019/05/installation-srgm-artistic-license-2019-2480x1395.jpg?w=870&zoom=2', 'artistic clicense'),
         (3, 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/42526215_10213145110365859_2225950093452771328_o.jpg?_nc_cat=102&_nc_ohc=x4S5g40A8IUAX-BNVIE&_nc_ht=scontent-lga3-1.xx&oh=0da895df71d9d1c6c808ac16511bad6d&oe=5ED36909', 'hangout in the city,'),
-        (4, 'https://ibb.co/MPzDRWt', 'Montreal living');
+        (4, 'https://ibb.co/MPzDRWt', 'Montreal living'),
         (3, 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1507053534%2F00-lead-plane-flying-clouds-LASTMINUTEHACKS1017.jpg%3Fitok%3DYHo_gGPL&q=85', 'See me in Paris'),
         (4, 'https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/17635342_10202987692209496_6565727501081893152_o.jpg?_nc_cat=106&_nc_ohc=n1e4Djnz5MAAX8sisyP&_nc_ht=scontent-lga3-1.xx&oh=b699b23941bda0c3f3ad1990def6eb60&oe=5EBA1778', 'having fun'),
         (3, 'https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/p960x960/17191675_10208897703383339_4397098756703387636_o.jpg?_nc_cat=109&_nc_ohc=i5wLrXDErOkAX9XHjiE&_nc_ht=scontent-lga3-1.xx&_nc_tp=6&oh=1097e22bd56a562d52fbb43ad42bfdde&oe=5EC9B910', 'KPOP YO'),
@@ -157,7 +157,7 @@ VALUES
     (2, 15),
     (1, 17),
     (2, 16),
-    (1, 15);
+    (3, 15);
 
 
 
