@@ -116,8 +116,8 @@ VALUES
 INSERT INTO pictures (post_id, pictureURL) SELECT id, imgURL FROM posts;
 UPDATE pictures SET album_id=1 WHERE id in (5,1); 
 UPDATE pictures SET album_id=2 WHERE id in (4); 
-UPDATE pictures SET album_id=3 WHERE id in (18,13); 
-UPDATE pictures SET album_id=4 WHERE id in (17,11,10,2); 
+UPDATE pictures SET album_id=3 WHERE id in (18,13,2); 
+UPDATE pictures SET album_id=4 WHERE id in (17,11,10); 
 UPDATE pictures SET album_id=5 WHERE id in (16,14,12,9,7,6); 
 UPDATE pictures SET album_id=6 WHERE id in (15,8,3); 
 
