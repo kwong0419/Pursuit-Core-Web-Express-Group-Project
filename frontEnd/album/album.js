@@ -29,6 +29,7 @@ const displayUserInfo = async id => {
 let contentButtonDiv = document.querySelector(".contentButton");
 let createBtn = document.createElement("button");
 createBtn.innerText = "Create New Album";
+createBtn.id = "createBtn";
 if (!sessionStorage.searchUserID) {
   contentButtonDiv.appendChild(createBtn);
 }
@@ -40,6 +41,7 @@ createBtn.addEventListener("click", async () => {
   let albumTitleInput = document.createElement("input");
   let coverInput = document.createElement("input");
   let newAlbumBtn = document.createElement("button");
+  newAlbumBtn.id = "newAlbumBtn";
   albumTitleInput.placeholder = "please enter new album title";
   coverInput.placeholder = "please paste cover URL link";
   newAlbumBtn.innerText = "create new Album";
