@@ -261,3 +261,20 @@ h1 {
   color: black;
   background-color: gold;
 }
+
+#quitSearchBtn {
+  position: absolute;
+  top: 0;
+  height: 5%;
+  color: yellow;
+  background-color: black;
+  border-color: black;
+  border-radius: 5%;
+  font-size: 12px;
+  font-family: fantasy;
+}
+
+#quitSearchBtn:hover {
+  color: white;
+  background-color: goldenrod;
+}
