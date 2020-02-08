@@ -85,7 +85,6 @@ INSERT INTO posts (poster_id, imgURL, description)
         (3, 'https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/14380016_598667860294007_3506811280356476293_o.jpg?_nc_cat=102&_nc_ohc=-WmIl9dkFykAX_bqdxc&_nc_ht=scontent-lga3-1.xx&oh=31b315c4b32996d250f3be35b8a1ffc8&oe=5ED48779', 'night out'),
         (2, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEETsfZN3QhAiu5bFsJmhVXOVLKd-EKTDE-FH2ur_2agkcvvWV', 'yellow paint'),
         (2, 'https://pixelart.io/uploads/2018-11-25/pixelart_1543145545002.png', 'pikachu'),
-        (4, 'https://ibb.co/MPzDRWt', 'Montreal living'),
         (4, 'https://66.media.tumblr.com/dcc2df64be8f0ed4083bdf361443b49a/tumblr_mf6k6mGUqn1rexwvqo1_500.jpg', 'Love!');
 
 
@@ -102,7 +101,7 @@ VALUES (2, 1, 'Beautiful tiger!'),
     (5, 2, 'Wowwww'),
     (5, 4, 'Great shot, wish I was here too'),
     (5, 3, 'Omggggg ....'),
-    (20, 1, 'This is dope');
+    (19, 1, 'This is dope');
 
 
 INSERT INTO albums (owner_id, album_title, album_date, album_coverURL)
@@ -121,8 +120,8 @@ UPDATE pictures SET album_id=1 WHERE id in (5,1);
 UPDATE pictures SET album_id=2 WHERE id in (4); 
 UPDATE pictures SET album_id=3 WHERE id in (18,13,2); 
 UPDATE pictures SET album_id=4 WHERE id in (17,11,10); 
-UPDATE pictures SET album_id=5 WHERE id in (16,14,12,9,7,6,19,20); 
-UPDATE pictures SET album_id=6 WHERE id in (15,8,3); 
+UPDATE pictures SET album_id=5 WHERE id in (16,14,12,9,7,6); 
+UPDATE pictures SET album_id=6 WHERE id in (15,8,3,19); 
 
 INSERT INTO likes
     (liker_id, post_id)
@@ -154,6 +153,5 @@ VALUES
     (3, 15),
     (4,18),
     (4,19),
-    (4,20),
-    (1,20),
-    (2,20);
+    (1,19),
+    (2,18);
