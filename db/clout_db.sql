@@ -63,7 +63,7 @@ INSERT INTO users (username, password, bio, proPicURL)
     VALUES ('kwong', 'admin123', 'NYC ABC. DM for beats.I have always had a passion for creative and innovative technology that can change the way our society lives. Being part of Pursuit might give me a chance to finally be part of that. https://soundcloud.com/kj_wongg', 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/35428358_10155525285981088_195203712392626176_n.jpg?_nc_cat=108&_nc_ohc=hFrvRM-lxQ0AX-loDFi&_nc_ht=scontent-lga3-1.xx&oh=fd27939bb7eab472adb49de8e39fde50&oe=5EBDF5B5'),
           ('kong', 'admin123', 'Love Avicii(R.I.P), BIG Pokemon fans', 'https://static1.squarespace.com/static/5b50ebb7e749401857e16f2f/t/5d7bbf0ef00cb05d84180599/1568390933661/CONGSONG%2C+YANG+-+Cong+Song+Yang.png'),
           ('trilltown', 'admin123', 'My name is Phil Awich. In joining Pursuit I hope to gain employment in the field of software development and be able to provide more for myself and my family. A fun fact about me is that I’m a huge kdrama addict. Currently watching Rookie Historian on Netflix', 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/20729629_10210191211400231_367345868643134708_n.jpg?_nc_cat=104&_nc_ohc=f2MRKWSPHOMAX8nvOsg&_nc_ht=scontent-lga3-1.xx&oh=0a47f7f3bff7e6eb30f4f2f1b44143c6&oe=5EDA0007'),
-          ('darsuabasi', 'admin123', 'Hi, I’m Uduakabasi. I actually joined Pursuit through an alum. I had the pleasure of being a part of Enza Academy’s HackFest. It was such an amazing experience and a lot of people were just so eager to help and that’s what I loved about it.', 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/38013965_10204917767580174_3881332877056540672_o.jpg?_nc_cat=107&_nc_ohc=gcE0O2vTZzEAX-l2BYA&_nc_ht=scontent-lga3-1.xx&oh=4976b4496286307144e4654e8cc9545c&oe=5ED39057');
+          ('darsuabasi', 'admin123', 'Uduakabasi. A judoka pursuing tech dreams at Pursuit.', 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/38013965_10204917767580174_3881332877056540672_o.jpg?_nc_cat=107&_nc_ohc=gcE0O2vTZzEAX-l2BYA&_nc_ht=scontent-lga3-1.xx&oh=4976b4496286307144e4654e8cc9545c&oe=5ED39057');
 
 
 INSERT INTO posts (poster_id, imgURL, description)
@@ -73,6 +73,7 @@ INSERT INTO posts (poster_id, imgURL, description)
         (1, 'https://seoimgak.mmtcdn.com/blog/sites/default/files/images/Lake-Louise.jpg', 'lovin Canada'),
         (1, 'https://i0.wp.com/www.guggenheim.org/wp-content/uploads/2019/05/installation-srgm-artistic-license-2019-2480x1395.jpg?w=870&zoom=2', 'artistic clicense'),
         (3, 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/42526215_10213145110365859_2225950093452771328_o.jpg?_nc_cat=102&_nc_ohc=x4S5g40A8IUAX-BNVIE&_nc_ht=scontent-lga3-1.xx&oh=0da895df71d9d1c6c808ac16511bad6d&oe=5ED36909', 'hangout in the city,'),
+        (4, 'https://ibb.co/MPzDRWt', 'Montreal living');
         (3, 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1507053534%2F00-lead-plane-flying-clouds-LASTMINUTEHACKS1017.jpg%3Fitok%3DYHo_gGPL&q=85', 'See me in Paris'),
         (4, 'https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/17635342_10202987692209496_6565727501081893152_o.jpg?_nc_cat=106&_nc_ohc=n1e4Djnz5MAAX8sisyP&_nc_ht=scontent-lga3-1.xx&oh=b699b23941bda0c3f3ad1990def6eb60&oe=5EBA1778', 'having fun'),
         (3, 'https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/p960x960/17191675_10208897703383339_4397098756703387636_o.jpg?_nc_cat=109&_nc_ohc=i5wLrXDErOkAX9XHjiE&_nc_ht=scontent-lga3-1.xx&_nc_tp=6&oh=1097e22bd56a562d52fbb43ad42bfdde&oe=5EC9B910', 'KPOP YO'),
@@ -80,11 +81,13 @@ INSERT INTO posts (poster_id, imgURL, description)
         (2, 'https://www.francetoday.com/wp-content/uploads/2019/06/Caumont-Guggenheim.jpg', 'green farm'),
         (3, 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/p960x960/44319720_10213301554596867_5397196873570189312_o.jpg?_nc_cat=101&_nc_ohc=TO0GIvFMgNoAX8418Z0&_nc_ht=scontent-lga3-1.xx&_nc_tp=6&oh=20cb34113c855268ddeca103a4258c27&oe=5EDB491E', 'water fall'),
         (2, 'https://pm1.narvii.com/6304/45d14aa734fc9dda0a842e2991e78a464ef14f30_hq.jpg', 'charizard'),
+        (4, 'https://ibb.co/W2nSZwZ', 'I spy with my little eyes....'),
         (3, 'https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/17966804_10209225039326533_5918438096743874858_o.jpg?_nc_cat=110&_nc_ohc=hnio5NRzB58AX9P7Tvw&_nc_ht=scontent-lga3-1.xx&oh=8f3bc54e0cfe2aa14b1e91cc3f1ca480&oe=5ED14C1D', 'partyy'),
         (4, 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13606540_10201927256979278_7391028318321080445_n.jpg?_nc_cat=109&_nc_ohc=L3xtP2FBE8gAX_E4nB5&_nc_ht=scontent-lga3-1.xx&oh=6eb4a7d52e9a32cb0a80abdc3579ad1a&oe=5EC3C344', 'LMAO'),
         (3, 'https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/14380016_598667860294007_3506811280356476293_o.jpg?_nc_cat=102&_nc_ohc=-WmIl9dkFykAX_bqdxc&_nc_ht=scontent-lga3-1.xx&oh=31b315c4b32996d250f3be35b8a1ffc8&oe=5ED48779', 'night out'),
         (2, 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEETsfZN3QhAiu5bFsJmhVXOVLKd-EKTDE-FH2ur_2agkcvvWV', 'yellow paint'),
-        (2, 'https://pixelart.io/uploads/2018-11-25/pixelart_1543145545002.png', 'pikachu');
+        (2, 'https://pixelart.io/uploads/2018-11-25/pixelart_1543145545002.png', 'pikachu'),
+        (4, 'https://66.media.tumblr.com/dcc2df64be8f0ed4083bdf361443b49a/tumblr_mf6k6mGUqn1rexwvqo1_500.jpg', 'Love!');
 
 
 INSERT INTO comments (post_id, author_id, content)
@@ -93,13 +96,17 @@ VALUES (2, 1, 'Beautiful tiger!'),
     (2, 4, 'Amazing pic I wish I had a tiger'),
     (1, 4, 'Inspiring message. Rest in peace Kobe'),
     (1, 3, 'Legendary.'),
+    (15, 2, 'what did you spy...?'),
     (3, 2, 'Where is this?? Beautiful'),
     (3, 1, 'Wow so jealous right now'),
+    (7, 1, 'Awesome pic'),
+    (7, 3, 'Niceeeeee'),
     (4, 3, 'Have fun!!'),
     (4, 2, 'Those clouds look puffy'),
     (5, 2, 'Wowwww'),
     (5, 4, 'Great shot, wish I was here too'),
-    (5, 3, 'Omggggg ....');
+    (5, 3, 'Omggggg ....'),
+    (21, 1, 'This is dope');
 
 
 INSERT INTO albums (owner_id, album_title, album_date, album_coverURL)
@@ -136,6 +143,8 @@ VALUES
     (3, 5),
     (4, 7),
     (4, 8),
+    (1, 21),
+    (2, 7),
     (4, 9),
     (3, 10),
     (4, 11),
@@ -143,11 +152,13 @@ VALUES
     (4, 6),
     (1, 12),
     (2, 13),
+    (1, 15),
     (3, 14),
     (2, 15),
     (1, 17),
     (2, 16),
     (1, 15);
+
 
 
 
