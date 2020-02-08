@@ -122,7 +122,6 @@ a:hover {
   justify-content: center;
   color: black;
   z-index: 1;
-  /* opacity: 90%; */
 }
 
 h1 {
@@ -224,4 +223,22 @@ h1 {
   border: solid gold;
   border-width: 3px;
   border-radius: 5%;
+}
+
+#userSearchBtn {
+  display: inline-block;
+  color: white;
+  padding: 2px;
+  size: 40%;
+  border-radius: 5px;
+  background-color: black;
+  border: 0.1em solid gold;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 300;
+}
+
+#userSearchBtn:hover {
+  color: black;
+  background-color: gold;
 }
