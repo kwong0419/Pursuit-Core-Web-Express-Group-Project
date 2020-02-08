@@ -4,6 +4,7 @@ let createPostForm = document.querySelector("#createPostForm");
 let postDiv = document.querySelector(".postDiv");
 let userSearchForm = document.querySelector("#userSearchForm");
 let userSearchInput = document.querySelector("#userSearchInput");
+
 userSearchForm.addEventListener("submit", async e => {
   e.preventDefault();
   let errorDiv = document.querySelector("#errorDiv");
@@ -32,7 +33,6 @@ let displayUserInfo = async () => {
   let profPic = document.querySelector("#ownerPic");
   let profBio = document.querySelector("#ownerBio");
   let logOffBtn = document.querySelector("#logOffBtn");
-
   let img = document.createElement("img");
   img.src = propicurl;
   profName.innerText = username;
@@ -77,8 +77,8 @@ let displayUserPostFeed = async () => {
 
     let insertCommentBtn = document.createElement("button");
     insertCommentBtn.className = "insertCommentBtn";
+    // document.getElementById("insertCommentBtn").style.breakInside="purple";
     insertCommentBtn.innerText = "Add a Comment";
-
     postDiv.appendChild(h4);
     isDeletePost(post, postDiv);
     postDiv.appendChild(img);
@@ -126,6 +126,12 @@ let displayUserPostFeed = async () => {
   });
 };
 
+const deletePost = async post => {
+  let res = await axios.delete(`http://localhost:3000/posts/${post.id}`);
+  window.location.reload();
+};
+
+
 const isDeletePost = (post, div) => {
   if (post.poster_id == sessionStorage.userID) {
     let deletePostBtn = document.createElement("button");
@@ -140,10 +146,6 @@ const isDeletePost = (post, div) => {
   }
 };
 
-const deletePost = async post => {
-  let res = await axios.delete(`http://localhost:3000/posts/${post.id}`);
-  window.location.reload();
-};
 
 const insertComment = async (div, input) => {
   let res = await axios.post(
