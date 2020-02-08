@@ -38,6 +38,7 @@ let displayUserInfo = async () => {
     displayPhoto(sessionStorage.searchUserID);
     let quitSearch = document.createElement("button");
     quitSearch.innerText = "return to Search";
+    quitSearch.id = "quitSearchBtn";
     content.appendChild(quitSearch);
     quitSearch.addEventListener("click", e => {
       e.preventDefault();
