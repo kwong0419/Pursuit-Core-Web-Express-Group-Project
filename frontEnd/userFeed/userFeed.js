@@ -77,7 +77,6 @@ let displayUserPostFeed = async () => {
 
     let insertCommentBtn = document.createElement("button");
     insertCommentBtn.className = "insertCommentBtn";
-    // document.getElementById("insertCommentBtn").style.breakInside="purple";
     insertCommentBtn.innerText = "Add a Comment";
     postDiv.appendChild(h4);
     isDeletePost(post, postDiv);
@@ -107,6 +106,7 @@ let displayUserPostFeed = async () => {
       commentInput.required = true;
       commentInput.placeholder = "Enter a comment here";
       commentBtn.type = "submit";
+      commentBtn.className = "commentBtn"
       commentBtn.innerText = "Submit Comment";
       form.appendChild(commentInput);
       form.appendChild(commentBtn);
