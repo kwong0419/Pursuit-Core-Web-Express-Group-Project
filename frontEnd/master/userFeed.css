@@ -334,3 +334,10 @@ h2 {
   color: black;
   background-color: gold;
 }
+
+#errorDiv p {
+  position: absolute;
+  top: -1.5vh;
+  left: 33vw;
+  color: white;
+}
