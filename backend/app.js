@@ -22,6 +22,8 @@ app.use("/posts", postsRouter);
 app.use("/users", usersRouter);
 app.use("/likes", likesRouter);
 
+
+
 app.get("/", (req, res) => {
   res.json({
     random: "this is a GET"
